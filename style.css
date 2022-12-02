@@ -34,6 +34,13 @@ p {
 
 .diagramm {
   margin-top: 150px;
+  position: relative;
+}
+.diagramm .line {
+  position: absolute;
+  left: -50px;
+  top: 65px;
+  opacity: 0.6;
 }
 
 .canvas {
